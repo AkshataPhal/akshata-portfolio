@@ -58,3 +58,31 @@ footer {
   background: #1e2a38;
   color: white;
 }
+/* Enhance styling for Dark mode and scroll functionality */
+/* 🌙 Dark Mode */
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+body.dark-mode header,
+body.dark-mode footer {
+  background: #222;
+}
+body.dark-mode section {
+  background: #1e1e1e;
+}
+body.dark-mode nav a {
+  color: #ffeb3b;
+}
+
+/* ✨ Scroll Animations */
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
