@@ -1,4 +1,4 @@
-// 🌙 Dark Mode Toggle
+// Dark Mode Toggle
 const toggleButton = document.createElement("button");
 toggleButton.innerText = "🌓 Toggle Dark Mode";
 toggleButton.style.position = "fixed";
@@ -14,7 +14,7 @@ toggleButton.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
-// ✨ Scroll-triggered Animations
+// Scroll-triggered Animations
 const revealElements = document.querySelectorAll("section");
 
 const revealOnScroll = () => {
